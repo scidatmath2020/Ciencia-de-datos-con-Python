@@ -1,0 +1,986 @@
+﻿CAMPO,DESCRIPCION,TIPO_DATO,LONGITUD,RANGO_VALIDO,METADATOS
+CD_A,Ciudad autorrepresentada,Varchar,2,[01-43],Ciudad autorrepresentada
+,,,,1,México
+,,,,2,Guadalajara
+,,,,3,Monterrey
+,,,,4,Puebla
+,,,,5,León
+,,,,7,San Luis Potosí
+,,,,8,Mérida
+,,,,9,Chihuahua
+,,,,10,Tampico
+,,,,12,Veracruz
+,,,,13,Acapulco
+,,,,14,Aguascalientes
+,,,,15,Morelia
+,,,,16,Toluca
+,,,,17,Saltillo
+,,,,18,Villahermosa
+,,,,19,Tuxtla Gutiérrez
+,,,,21,Tijuana
+,,,,24,Culiacán
+,,,,25,Hermosillo
+,,,,26,Durango
+,,,,27,Tepic
+,,,,28,Campeche
+,,,,29,Cuernavaca
+,,,,31,Oaxaca
+,,,,32,Zacatecas
+,,,,33,Colima
+,,,,36,Querétaro
+,,,,39,Tlaxcala
+,,,,40,La Paz
+,,,,41,Cancún
+,,,,43,Pachuca
+PER,Periodo de levantamiento,Varchar,4,[0001-9999],Periodo de levantamiento
+ENT,Entidad,Varchar,2,[01-32],Entidad
+,,,,1,Aguascalientes
+,,,,2,Baja California
+,,,,3,Baja California Sur
+,,,,4,Campeche
+,,,,5,Coahuila de Zaragoza
+,,,,6,Colima
+,,,,7,Chiapas
+,,,,8,Chihuahua
+,,,,9,Distrito Federal
+,,,,10,Durango
+,,,,11,Guanajuato
+,,,,12,Guerrero
+,,,,13,Hidalgo
+,,,,14,Jalisco
+,,,,15,México
+,,,,16,Michoacán de Ocampo
+,,,,17,Morelos
+,,,,18,Nayarit
+,,,,19,Nuevo León
+,,,,20,Oaxaca
+,,,,21,Puebla
+,,,,22,Querétaro
+,,,,23,Quintana Roo
+,,,,24,San Luis Potosí
+,,,,25,Sinaloa
+,,,,26,Sonora
+,,,,27,Tabasco
+,,,,28,Tamaulipas
+,,,,29,Tlaxcala
+,,,,30,Veracruz de Ignacio de la Llave
+,,,,31,Yucatán
+,,,,32,Zacatecas
+CON,Control,Varchar,5,[00001-99999],Control
+V_SEL,Vivienda seleccionada,Varchar,1,[1-9],Vivienda seleccionada
+N_HOG,Número de hogar,Varchar,1,[1-9],Número de hogar
+N_REN,Número de renglón,Varchar,2,[01-30],Número de renglón
+,,,,,Dígame si son ciertas o falsas cada una de las siguientes afirmaciones.
+S4P18_1,El centro de la tierra es muy caliente,Int,1,[1-3],El centro de la tierra es muy caliente
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_2,Toda la radioactividad está hecha por el hombre,Int,1,[1-3],"Toda la radioactividad está
+hecha por el hombre"
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_3,Todo el oxígeno que respiramos proviene de las plantas,Int,1,[1-3],Todo el oxígeno que respiramos proviene de las plantas
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_4,El gen del padre es el que decide si el bebé es niño o niña,Int,1,[1-3],"El gen del padre es el que de-
+cide si el bebé es niño o niña"
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_5,El rayo láser trabaja por el enfoque de ondas sonoras,Int,1,[1-3],El rayo láser trabaja por el enfoque de ondas sonoras
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_6,Los electrones son más pequeños que los átomos,Int,1,[1-3],Los electrones son más pequeños que los átomos
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_7,Los antibióticos sirven para tratar enfermedades causadas tanto por virus como por bacterias,Int,1,[1-3],Los antibióticos sirven para tratar enfermedades causadas tanto por virus como por bacterias
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_8,El universo inició con una gran explosión,Int,1,[1-3],El universo inició con una gran explosión
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_9,Alemania ganó la 2a Guerra Mundial,Int,1,[1-3],Alemania ganó la 2a Guerra Mundial
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_10,Los seres humanos de hoy se desarrollaron a partir de la evolución de otras especies animales,Int,1,[1-3],Los seres humanos de hoy se desarrollaron a partir de la evolución de otras especies animales
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_11,Fumar puede causar cáncer pulmonar,Int,1,[1-3],Fumar puede causar cáncer pulmonar
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_12,Los primeros humanos vivieron en la misma época que los dinosaurios,Int,1,[1-3],Los primeros humanos vivieron en la misma época que los dinosaurios
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_13,Existe el premio Nobel de matemáticas,Int,1,[1-3],Existe el premio Nobel de matemáticas
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_14,"Mario Molina, premio Nobel de Química, es mexicano",Int,1,[1-3],"Mario Molina, premio Nobel de Química, es mexicano"
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_15,"México limita al sur
+con el Salvador",Int,1,[1-3],"México limita al sur con el
+Salvador"
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_16,En México hay plantas nucleares,Int,1,[1-3],En México hay plantas nucleares
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_17,La tierra da la vuelta al sol en un mes,Int,1,[1-3],La tierra da la vuelta al sol en un mes
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_18,El sonido viaja más rápido que la luz,Int,1,[1-3],El sonido viaja más rápido que la luz
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_19,Al menos cinco mexicanos han ganado el premio Nobel,Int,1,[1-3],"Al menos cinco mexicanos han
+ganado el premio Nobel"
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P18_20,"El hombre ya ha
+llegado a la luna",Int,1,[1-3],"El hombre ya ha llegado a la
+luna"
+,,,,1,Cierto
+,,,,2,Falso
+,,,,3,No sabe
+S4P19,"Un doctor le dice a una pareja que tiene una posibilidad del 25% de tener un hijo con una enfermedad congénita, ¿esto significa que. . .",Int,1,[1-6],"Un doctor le dice a una pareja que tiene una posibilidad del 25% de tener un hijo con una enfermedad congénita, ¿esto significa que. . ."
+,,,,1,"sus primeros tres hijos nacerán sanos, mientras que el cuarto tendrá la enfermedad?"
+,,,,2,"el primer hijo nacerá con la enfermedad, mientras que los siguientes tres no la tendrán?"
+,,,,3,cada hijo de la pareja tendrá el mismo riesgo de nacer con la enfermedad?
+,,,,4,"si sólo tienen tres hijos, ninguno tendrá la enfermedad?"
+,,,,5,si tiene cuatro hijos uno de ellos tendrá la enfermedad congénita?
+,,,,6,No sabe
+S4P20,"Un médico quiere probar un medicamento para combatir una enfermedad para la cual no hay cura comprobada; en su opinión, ¿cuál de las siguientes acciones es más eficaz para probar la efectividad de la medicina?",Int,1,[1-4],"Un médico quiere probar un medicamento para combatir una enfermedad para la cual no hay cura comprobada;  en su opinión, ¿cuál de las siguientes acciones es más
+eficaz para probar la efectividad de la medicina?"
+,,,,1,Administrar el medicamento a 1 000 personas con la enfermedad y ver cuántas muestran signos de recuperación
+,,,,2,"Tratar a 500 personas con la medicina y a las otras 500 no, y observar quienes presentan signos de recuperación"
+,,,,3,"Tratar con medicina a 500 personas y a otras 500 personas con una pastilla que no produce ningún efecto en el cuerpo humano, y comparar ambos resultados"
+,,,,4,No sabe
+,,,,,"De la siguiente lista de alternativas para generar energía eléctrica, evalúe cada una de ellas como nada contaminante (limpia), poco contaminan-
+te, algo contaminante, muy contaminante y excesivamente contaminante."
+S4P21_1,Plantas nucleares (uso de combustible nuclear: uranio y/o plutonio),Int,1,[1-6],Plantas nucleares (uso de combustible nuclear: uranio y/o plutonio)
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+S4P21_2,Hidroeléctricas (uso de la fuerza en la caída de agua),Int,1,[1-6],Hidroeléctricas (uso de la fuerza en la caída de agua)
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+S4P21_3,"Termoeléctricas (uso de combustibles fósiles: petróleo, carbón y sus derivados)",Int,1,[1-6],"Termoeléctricas (uso de combustibles fósiles: petróleo, carbón y sus derivados)"
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+S4P21_4,Eólicas (uso de la fuerza de los vientos),Int,1,[1-6],Eólicas (uso de la fuerza de los vientos)
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+S4P21_5,Solar (uso de celdas o páneles solares),Int,1,[1-6],Solar (uso de celdas o páneles solares)
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+S4P21_6,Geotérmicas (uso del calor interior de la tierra),Int,1,[1-6],"Geotérmicas (uso del calor
+interior de la tierra)"
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+S4P21_7,Ciclo combinado que utiliza gas natural (uso de vapor de agua y gas),Int,1,[1-6],Ciclo combinado que utiliza gas natural (uso de vapor de agua y gas)
+,,,,1,Nada contaminante (limpia)
+,,,,2,Poco contaminante
+,,,,3,Algo contaminante
+,,,,4,Muy contaminante
+,,,,5,Excesivamente contaminante
+,,,,6,No sabe
+,,,,,"Dígame por favor si está muy de acuerdo, de acuerdo, en desacuerdo o muy en desacuerdo, con las siguientes afirmaciones como las que podría usted encontrar en un periódico o revista."
+S4P22_1,El progreso científico y tecnológico ayudará a encontrar la cura para enfermedades como el SIDA y el cáncer,Int,1,[1-5],El progreso científico y tecnológico ayudará a encontrar la cura para enfermedades como el SIDA y el cáncer
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_2,Gracias a la ciencia y la tecnología habrá más oportunidades para las próximas generaciones,Int,1,[1-5],Gracias a la ciencia y la tecnología habrá más oportunidades para las próximas generaciones
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_3,"La ciencia y la tecnología hacen nuestras vidas más fáciles, confortables y con mayores niveles de salud",Int,1,[1-5],"La ciencia y la tecnología hacen nuestras vidas más fáciles, confortables y con mayores niveles de salud"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_4,Con la aplicación de la ciencia y nuevas tecnologías el trabajo será más interesante,Int,1,[1-5],Con la aplicación de la ciencia y nuevas tecnologías el trabajo será más interesante
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_5,La ciencia y la tecnología juegan un papel muy importante en la protección y restauración del medio ambiente,Int,1,[1-5],La ciencia y la tecnología juegan un papel muy importante en la protección y restauración del medio ambiente
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_6,Los descubrimientos tecnológicos tarde o temprano destruirán el planeta,Int,1,[1-5],Los descubrimientos tecnológicos tarde o temprano destruirán el planeta
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_7,Los nuevos inventos sirven para contrarrestar las consecuencias dañinas del desarrollo tecnológico,Int,1,[1-5],Los nuevos inventos sirven para contrarrestar las consecuencias dañinas del desarrollo tecnológico
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_8,La ciencia y la tecnología ayudarán a erradicar la pobreza y hambruna en el mundo,Int,1,[1-5],La ciencia y la tecnología ayudarán a erradicar la pobreza y hambruna en el mundo
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_9,"En general, la automatización de las fábricas y la computación crearán más empleos de los que se eliminarán",Int,1,[1-5],"En general, la automatización de las fábricas y la computación crearán más empleos de los que se eliminarán"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_10,"Gracias a los avances científicos y tecnológicos, los recursos naturales de la tierra serán inagotables",Int,1,[1-5],"Gracias a los avances científicos y tecnológicos, los recursos naturales de la tierra serán inagotables"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_11,La ciencia y la tecnología pueden resolver todos los problemas,Int,1,[1-5],La ciencia y la tecnología pueden resolver todos los problemas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P22_12,El consumo frecuente de alimentos genéticamente modificados puede ser dañino para la salud,Int,1,[1-5],El consumo frecuente de alimentos genéticamente modificados puede ser dañino para la salud
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+,,,,,En cuanto a la ciencia y el desarrollo tecnológico:
+S4P23_1,La investigación científica y tecnológica juega un papel fundamental en el desarrollo tecnológico,Int,1,[1-5],La investigación científica y tecnológica juega un papel fundamental en el desarrollo tecnológico
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_2,La investigación básica siempre produce desarrollo tecnológico,Int,1,[1-5],La investigación básica siempre produce desarrollo tecnológico
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_3,"La investigación básica debe ser apoyada por el Gobierno Federal, aun cuando los beneficios que resulten no sean inmediatos",Int,1,[1-5],"La investigación básica debe ser apoyada por el Gobierno Federal, aun cuando los beneficios que resulten no sean inmediatos"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_4,"Sólo con base en la investigación básica, aplicada y el desarrollo tecnológico nuestra economía podrá ser más competitiva",Int,1,[1-5],"Sólo con base en la investigación básica, aplicada y el desarrollo tecnológico nuestra economía podrá ser más competitiva"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_5,La Internet es esencial para el desarrollo de nuevas actividades económicas,Int,1,[1-5],La Internet es esencial para el desarrollo de nuevas actividades económicas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_6,La Internet ayudará a mejorar la calidad de vida de las personas,Int,1,[1-5],La Internet ayudará a mejorar la calidad de vida de las personas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_7,"La investigación básica, aplicada y el desarrollo tecnológico hacen que los productos industriales sean más baratos",Int,1,[1-5],"La investigación básica, aplicada y el desarrollo tecnológico hacen que los productos industriales sean más baratos"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_8,Muchos de los desarrollos tecnológicos son útiles o prácticos,Int,1,[1-5],Muchos de los desarrollos tecnológicos son útiles o prácticos
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_9,El crecimiento económico de un país está estrechamente relacionado con la cantidad y calidad de su investigación en ciencias básicas,Int,1,[1-5],El crecimiento económico de un país está estrechamente relacionado con la cantidad y calidad de su investigación en ciencias básicas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P23_10,Son mayores los beneficios generados por la investigación científica que los daños asociados a dicha investigación,Int,1,[1-5],Son mayores los beneficios generados por la investigación científica que los daños asociados a dicha investigación
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+,,,,,"Respecto al papel del cientí-
+fico:"
+S4P24_1,"Los científicos son responsables de los malos usos que
+hacen otras personas de sus descubrimientos",Int,1,[1-5],Los científicos son responsables de los malos usos que hacen otras personas de sus descubrimientos
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P24_2,"Debido a sus conocimientos, los investigadores científicos tienen un poder que los hacen peligrosos",Int,1,[1-5],"Debido a sus conocimientos, los investigadores científicos tienen un poder que los hacen peligrosos"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P24_3,"Los descubrimientos científicos por sí mismos no son buenos ni malos, lo
+importante es el uso
+que se les dé",Int,1,[1-5],"Los descubrimientos científicos por sí mismos no son buenos ni malos, lo importante es el uso que se les dé"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P24_4,"Debe ser permitido a los científicos la investigación que
+causa daño y dolor a los animales, como perros y chimpancés, siempre que produzca beneficios a la salud de los seres humanos",Int,1,[1-5],"Debe ser permitido a los científicos la investigación que causa daño y dolor a los
+animales, como perros y chimpancés, siempre que produzca beneficios a la salud de los seres humanos"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P24_5,Las autoridades deberían obligar a los científicos a observar reglas éticas,Int,1,[1-5],Las autoridades deberían obligar a los científicos a observar reglas éticas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P24_6,"Los científicos deben
+ser libres de llevar  a cabo sus investigaciones, siempre y
+cuando lo hagan bajo reglas éticas",Int,1,[1-5],"Los científicos deben ser libres de llevar a cabo sus investigaciones, siempre y cuando lo hagan bajo reglas éticas"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+,,,,,"Sobre el papel de los científicos, las empresas y el gobierno:"
+S4P25_1,El gobierno debería invertir más en investigación científica,Int,1,[1-5],"El gobierno debería invertir
+más en investigación científica"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_2,Los investigadores de los diferentes países deberían trabajar más en conjunto,Int,1,[1-5],Los investigadores de los diferentes países deberían trabajar más en conjunto
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_3,En México debería haber más gente trabajando en investigación y desarrollo tecnológico,Int,1,[1-5],En México debería haber más gente trabajando en investigación y desarrollo tecnológico
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_4,Los investigadores mexicanos mejor calificados se van a los Estados Unidos o Europa,Int,1,[1-5],Los investigadores mexicanos mejor calificados se van a los Estados Unidos o Europa
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_5,Debería haber mayor coordinación entre los investigadores de las diferentes instituciones del país,Int,1,[1-5],Debería haber mayor coordinación entre los investigadores de las diferentes instituciones del país
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_6,Los científicos y los empresarios deberían cooperar más entre sí,Int,1,[1-5],Los científicos y los empresarios deberían cooperar más entre sí
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_7,Considera que las universidades y las empresas colaboran entre sí,Int,1,[1-5],Considera que las universidades y las empresas colaboran entre sí
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_8,"Las prioridades en la investigación
+nacional reflejan más los gustos personales de los científicos mexicanos que las necesidades de la sociedad",Int,1,[1-5],Las prioridades en la investigación nacional reflejan más los gustos personales de los científicos mexicanos que las necesidades de la sociedad
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_9,Los científicos deberían interesarse más en patentar sus investigaciones y en el uso que se les dé,Int,1,[1-5],Los científicos deberían interesarse más en patentar sus investigaciones y en el uso que se les dé
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_10,Los mexicanos deberían estar menos preocupados acerca de las implicaciones éticas relacionadas con la ciencia y las tecnologías modernas,Int,1,[1-5],Los mexicanos deberían estar menos preocupados acerca de las implicaciones éticas relacionadas con la ciencia y las tecnologías modernas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_11,Debería haber más mujeres dedicadas a la investigación científica en nuestro país,Int,1,[1-5],Debería haber más mujeres dedicadas a la investigación científica en nuestro país
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P25_12,El gobierno debe impulsar que las personas participen en debates sobre la asignación de presupuesto para ciencia y tecnologia,Int,1,[1-5],El gobierno debe impulsar que las personas participen en debates sobre la asignación de presupuesto para ciencia y tecnologia
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+,,,,,En cuanto a la sociedad en general:
+S4P26_1,La investigación y el desarrollo tecnológico llevadas a cabo por la industria están bien controladas y reguladas,Int,1,[1-5],La investigación y el desarrollo tecnológico llevadas a cabo por la industria están bien controladas y reguladas
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P26_2,Los funcionarios públicos deben confiar más sus decisiones en las opiniones de científicos expertos,Int,1,[1-5],Los funcionarios públicos deben confiar más sus decisiones en las opiniones de científicos expertos
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P26_3,Para la sociedad en general no es importante estar involucrada en decisiones acerca de ciencia y tecnología,Int,1,[1-5],Para la sociedad en general no es importante estar involucrada en decisiones acerca de ciencia y tecnología
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P26_4,El público está suficientemente involucrado en decisiones acerca de ciencia y tecnología,Int,1,[1-5],El público está suficientemente involucrado en decisiones acerca de ciencia y tecnología
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P26_5,Los científicos ponen muy poco esfuerzo por informar al público acerca de sus trabajos científicos o desarrollos tecnológicos,Int,1,[1-5],Los científicos ponen muy poco esfuerzo por informar al público acerca de sus trabajos científicos o desarrollos tecnológicos
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+,,,,,"En cuanto a los jóvenes: De las siguientes afirmaciones sobre el interés de los jóvenes en la ciencia, dígame si está muy de acuerdo, de acuerdo, en desacuerdo o muy en desacuerdo."
+S4P27_1,Los jóvenes interesados en la ciencia tienen mejores posibilidades de conseguir empleo,Int,1,[1-5],Los jóvenes interesados en la ciencia tienen mejores posibilidades de conseguir empleo
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_2,Los jóvenes interesados en la ciencia tienen mejores posibilidades de conseguir empleo,Int,1,[1-5],Los jóvenes interesados en la ciencia tienen mejores posibilidades de conseguir empleo
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_3,La ciencia prepara  a la generación más joven para actuar como ciudadanos bien informados,Int,1,[1-5],La ciencia prepara a la generación más joven para actuar como ciudadanos bien informados
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_4,El interés en la ciencia de parte de los jóvenes es esencial para un futuro próspero,Int,1,[1-5],El interés en la ciencia de parte de los jóvenes es esencial para un futuro próspero
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_5,El interés en la ciencia de parte de los jóvenes es esencial para un futuro próspero,Int,1,[1-5],El interés en la ciencia de parte de los jóvenes es esencial para un futuro próspero
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_6,Las universidades  en México deberían estar más dispuestas a recibir estudiantes extranjeros,Int,1,[1-5],Las universidades en México deberían estar más dispuestas a recibir estudiantes extranjeros
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_7,La ciencia tiene una imagen muy negativa para la sociedad,Int,1,[1-5],La ciencia tiene una imagen muy negativa para la sociedad
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_8,"Si una nueva tecnología tiene un riesgo que no se entiende completamente, el desarrollo de esta tecnología debería ser detenido aún cuando ella beneficie a otros",Int,1,[1-5],"Si una nueva tecnología tiene un riesgo que no se entiende completamente, el desarrollo de esta tecnología debería ser detenido aún cuando ella beneficie a otros"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P27_9,"Si le damos demasiada importancia a los riesgos que no son completamente entendidos, podríamos perder la oportunidad del progreso tecnológico",Int,1,[1-5],"Si le damos demasiada importancia a los riesgos que no son completamente entendidos, podríamos perder la oportunidad del progreso tecnológico"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+,,,,,"Voy a nombrar algunos gastos que hace el gobierno, para cada uno de ellos, dígame si cree que se está asignando o invirtiendo muy poco dinero, el monto correcto o demasiado dinero."
+S4P28_1,Satélites de comunicación,Int,1,[1-4],Satélites de comunicación
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_2,Reducción de la contaminación,Int,1,[1-4],Reducción de la contaminación
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_3,Mejoras en los servicios de salud,Int,1,[1-4],Mejoras en los servicios de salud
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_4,"Apoyos a la investi-
+gación científica",Int,1,[1-4],"Apoyos a la investigación
+científica"
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_5,"Apoyos a la investi-
+gación científica",Int,1,[1-4],"Apoyos a la investigación
+científica"
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_6,"Dotar a la población de acceso universal a las tecnologías de la información (computadoras, líneas telefónicas, servicios vía Internet, etc.)",Int,1,[1-4],"Dotar a la población de acceso universal a las tecnologías de la información (computadoras, líneas telefónicas, servicios vía Internet, etc.)"
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_7,Reducción de la pobreza y atención a los adultos mayores,Int,1,[1-4],Reducción de la pobreza y atención a los adultos mayores
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_8,Apoyos a las empresas para que desarrollen tecnología propia,Int,1,[1-4],Apoyos a las empresas para que desarrollen tecnología propia
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+S4P28_9,Aumento de capacidades de las personas para mejorar sus habilidades en el trabajo,Int,1,[1-4],Aumento de capacidades de las personas para mejorar sus habilidades en el trabajo
+,,,,1,Muy poco
+,,,,2,Monto correcto
+,,,,3,Demasiado
+,,,,4,No sabe
+,,,,,"De los siguientes países o grupos de países que voy a mencionarle: EUA, Unión Europea, Japón o México, dígame. . ."
+S4P29_1,"¿Dónde están los
+mejores científicos?",Int,1,[1-5],"¿Dónde están los mejores
+científicos?"
+,,,,1,EUA
+,,,,2,Unión Europea
+,,,,3,Japón
+,,,,4,México
+,,,,5,No sabe
+S4P29_2,¿Cuál país gasta más dinero en investigación científica?,Int,1,[1-5],"¿Cuál país gasta más dinero
+en investigación científica?"
+,,,,1,EUA
+,,,,2,Unión Europea
+,,,,3,Japón
+,,,,4,México
+,,,,5,No sabe
+S4P30,¿Ha oído usted hablar de la clonación?,Int,1,[1-2],"¿Ha oído usted hablar de la
+clonación?"
+,,,,1,Sí
+,,,,2,No
+S4P30_1,"¿Está de acuerdo en que se realice la reproducción de
+algunos animales por este medio?",Int,1,[1-2],¿Está de acuerdo en que se realice la reproducción de algunos animales por este medio?
+,,,,1,Sí
+,,,,2,No
+S4P30_2,"¿Está de acuerdo en que se realice la reproducción de órganos y
+tejidos humanos por clonación para realizar trasplantes quirúrgicos?”",Int,1,[1-2],"¿Está de acuerdo en que se realice la reproducción de órganos y
+tejidos humanos por clonación para realizar trasplantes quirúrgicos?"
+,,,,1,Sí
+,,,,2,No
+S4P31,"De las siguientes afirmaciones, ¿con cuál se identifica usted?",Int,1,[1-6],"De las siguientes afirmaciones, ¿con cuál se identifica usted?"
+,,,,1,Confía más en la ciencia
+,,,,2,Confía más en la fe o religión
+,,,,3,Confía de igual manera en ambas
+,,,,4,Confía en su intuición
+,,,,5,No confía en ninguna
+,,,,6,No sabe
+,,,,,"Voy a leer algunas afirmaciones como las que usted podría encontrar en un periódico o revista. Para cada una de ellas, dígame por favor si está muy de acuerdo, de acuer-
+do, en desacuerdo o muy en desacuerdo."
+S4P31_1_1,Confiamos demasiado en la fe y muy poco en la ciencia,Int,1,[1-5],"Confiamos demasiado en la fe
+y muy poco en la ciencia"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P31_1_2,La aplicación de la ciencia hace que nuestro modo de vida cambie demasiado rápido,Int,1,[1-5],La aplicación de la ciencia hace que nuestro modo de vida cambie demasiado rápido
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P31_1_3,Algunos números son de la suerte,Int,1,[1-5],Algunos números son de la suerte
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P31_1_4,El desarrollo tecnológico origina una manera de vivir artificial y deshumanizada,Int,1,[1-5],El desarrollo tecnológico origina una manera de vivir artificial y deshumanizada
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P31_1_5,"“Algunos de los objetos voladores no identificados que se han reportado,
+son en realidad vehículos espaciales de otras civilizaciones”",Int,1,[1-5],"""Algunos de los objetos voladores no identificados que se han reportado,
+son en realidad vehículos espaciales de otras civilizaciones"""
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P31_1_6,Algunas personas poseen poderes psíquicos,Int,1,[1-5],Algunas personas poseen poderes psíquicos
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P31_1_7,"Existen medios adecuados para el tratamiento de
+enfermedades que la ciencia no reconoce (acupuntura, quiropráctica, homeopatía, limpias)",Int,1,[1-5],"Existen medios adecuados para el tratamiento de enfermedades que la ciencia no reconoce (acupuntura, quiropráctica, homeopatía, limpias)"
+,,,,1,Muy de acuerdo
+,,,,2,De acuerdo
+,,,,3,En desacuerdo
+,,,,4,Muy en desacuerdo
+,,,,5,No sabe
+S4P32,"En otro orden de ideas, ¿durante el último año ha leído su horóscopo o consultado su carta astral?",Int,1,[1-2],"En otro orden de ideas, ¿durante el último año ha leído su horóscopo o consultado su carta astral?"
+,,,,1,Sí
+,,,,2,No
+S4P32_1,¿Con qué frecuencia consulta su información astrológica?,Int,1,[1-3],"¿Con qué frecuencia consulta
+su información astrológica?"
+,,,,1,Diariamente
+,,,,2,Frecuentemente
+,,,,3,Ocasionalmente
+S4P33,De las siguientes afirmaciones ¿cuál considera que es válida?,Int,1,[1-5],"De las siguientes afirmaciones
+¿cuál considera que es válida?"
+,,,,1,"Todo ser vivo, incluido el ser humano, plantas y animales, ha evolucionado mediante un proceso de selección natural"
+,,,,2,Todas las especies de seres vivos fueron creadas por un ser supremo (Dios)
+,,,,3,"Ambas afirmaciones son
+válidas"
+,,,,4,"Ninguna de esas afirmaciones
+son válidas"
+,,,,5,No sabe
+S5P1,¿Sabe qué es el Consejo Nacional de Ciencia y Tecnología (CONACYT)?,Int,1,[1-2],¿Sabe qué es el Consejo Nacional de Ciencia y Tecnología (CONACYT)?
+,,,,1,Sí
+,,,,2,No
+S5P1_1,¿Al menos ha oído hablar de él?,Int,1,[1-2],¿Al menos ha oído hablar de él?
+,,,,1,Sí
+,,,,2,No
+,,,,,¿Por qué medios se ha enterado del CONACYT?
+S5P2_1,Televisión,Int,1,[1-2],Televisión
+,,,,1,Sí
+,,,,2,No
+S5P2_2,Radio,Int,1,[1-2],Radio
+,,,,1,Sí
+,,,,2,No
+S5P2_3,Periódico o revista,Int,1,[1-2],Periódico o revista
+,,,,1,Sí
+,,,,2,No
+S5P2_4,Libros,Int,1,[1-2],Libros
+,,,,1,Sí
+,,,,2,No
+S5P2_5,Internet,Int,1,[1-2],Internet
+,,,,1,Sí
+,,,,2,No
+S5P2_6,Otros,Int,1,[1-2],Otros
+,,,,1,Sí
+,,,,2,No
+S5P2_ES,Especifique (Otros),Varchar,50,Texto,Especifique (Otros)
+S5P3,¿Sabe a qué actividades se dedica el CONACYT?,Int,1,[1-2],"¿Sabe a qué actividades se
+dedica el CONACYT?"
+,,,,1,Sí
+,,,,2,No
+,,,,,Dígame si las siguientes actividades son realizadas por el CONACYT.
+S5P4_1,,Int,1,[1-3],Becas de licenciatura
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_2,Apoyo a investigadores,Int,1,[1-3],Apoyo a investigadores
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_3,Asigna presupuesto a centros públicos de investigación,Int,1,[1-3],Asigna presupuesto a centros públicos de investigación
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_4,Publicación de revistas de ciencia y tecnología,Int,1,[1-3],Publicación de revistas de ciencia y tecnología
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_5,Difusión de actividades científicas y tecnológicas en México,Int,1,[1-3],Difusión de actividades científicas y tecnológicas en México
+,,,,1,Sí
+,,,,2,No
+,,,,Fin,No sabe
+S5P4_6,Financiamiento a empresas para desarrollos tecnológicos,Int,1,[1-3],Financiamiento a empresas para desarrollos tecnológicos
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_7,Apoyos a proyectos culturales,Int,1,[1-3],Apoyos a proyectos culturales
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_8,Otorgamiento de becas para posgrado,Int,1,[1-3],Otorgamiento de becas para posgrado
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_9,"Investigación cien-
+tífica",Int,1,[1-3],Investigación científica
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_10,Financiamiento a proyectos de investigación en universidades,Int,1,[1-3],Financiamiento a proyectos de investigación en universidades
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_11,Construcción de escuelas,Int,1,[1-3],Construcción de escuelas
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_12,Otras,Int,1,[1-3],Otras
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+S5P4_ES,Especifique (Otras),Varchar,50,Texto,Especifique (Otras)
+S5P5,"¿Qué opinión tiene
+del CONACYT?",Int,1,[1-5],¿Qué opinión tiene del CONACYT?
+,,,,1,Muy favorable
+,,,,2,Favorable
+,,,,3,Indiferente
+,,,,4,Desfavorable
+,,,,5,Muy desfavorable
+,,,,,"¿Conoce usted los siguientes programas de apoyo, productos y servicios del CONACYT?"
+S5P6_1,Becas a posgrados nacionales,Int,1,[1-2],Becas a posgrados nacionales
+,,,,1,Sí
+,,,,2,No
+S5P6_2,Becas a posgrados extranjeros,Int,1,[1-2],Becas a posgrados extranjeros
+,,,,1,Sí
+,,,,2,No
+S5P6_3,"Becas a estancias
+técnicas",Int,1,[1-2],Becas a estancias técnicas
+,,,,1,Sí
+,,,,2,No
+S5P6_4,Estímulos a la innovación,Int,1,[1-2],Estímulos a la innovación
+,,,,1,Sí
+,,,,2,No
+S5P6_5,Fondos mixtos,Int,1,[1-2],Fondos mixtos
+,,,,1,Sí
+,,,,2,No
+S5P6_6,Fondos sectoriales,Int,1,[1-2],Fondos sectoriales
+,,,,1,Sí
+,,,,2,No
+S5P6_7,Fondos institucionales,Int,1,[1-2],Fondos institucionales
+,,,,1,Sí
+,,,,2,No
+S5P6_8,Sistema Nacional de Investigadores,Int,1,[1-2],Sistema Nacional de Investigadores
+,,,,1,Sí
+,,,,2,No
+S5P6_9,Redes y consorcios,Int,1,[1-2],Redes y consorcios
+,,,,1,Sí
+,,,,2,No
+S5P6_10,Cooperación internacional,Int,1,[1-2],Cooperación internacional
+,,,,1,Sí
+,,,,2,No
+S5P6_11,"Registro Nacional de Instituciones y
+Empresas Científicas
+y Tecnológicas",Int,1,[1-2],Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas
+,,,,1,Sí
+,,,,2,No
+S5P6_12,Agencia de noticias CONACYT,Int,1,[1-2],Agencia de noticias CONACYT
+,,,,1,Sí
+,,,,2,No
+S5P6_13,Sistema Integrado de Información Científica y Tecnológica,Int,1,[1-2],"Sistema Integrado de Informa-
+ción Científica y Tecnológica"
+,,,,1,Sí
+,,,,2,No
+S5P6_14,Informe del Estado General de la Ciencia y la Tecnología en México,Int,1,[1-2],Informe del Estado General de la Ciencia y la Tecnología en México
+,,,,1,Sí
+,,,,2,No
+S5P7,"En materia de política de ciencia y tecnología, ¿cuál
+considera usted que es la prioridad del CONACYT?",Int,1,[1-7],"En materia de política de ciencia y tecnología, ¿cuál considera usted que es la prioridad del CONACYT?"
+,,,,1,Investigación aplicada
+,,,,2,Investigación básica o pura
+,,,,3,Ambas (aplicada y básica)
+,,,,4,Desarrollo tecnológico
+,,,,5,Todas las anteriores
+,,,,6,Ninguna
+,,,,7,No sabe
+S5P8,¿Cómo considera usted la influencia  del CONACYT en la generación y aplicación del conocimiento científico y tecnológico en México?,Int,1,[1-5],¿Cómo considera usted la influencia del CONACYT en la generación y aplicación del conocimiento científico y tecnológico en México?
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Limitada
+,,,,4,Nula
+,,,,5,No sabe
+S5P9,"¿Usted considera que el gasto del Gobierno Federal en ciencia, tecnología
+e innovación, en los últimos años…",Int,1,[1-4],"¿Usted considera que el gasto del Gobierno Federal en ciencia, tecnología e innovación, en los últimos años…"
+,,,,1,ha aumentado?
+,,,,2,"se ha mantenido constante o
+igual?"
+,,,,3,ha disminuido?
+,,,,4,no sabe
+,,,,,Todo
+,,,,,"¿Cuáles deberían ser las prioridades del CONACYT?, ordenélas por importancia, donde 1 es la más importante y 6 la menos importante."
+S5P10_1,"Apoyo a la investiga-
+ción científica",Int,1,[1-6],"Apoyo a la investigación
+científica"
+S5P10_2,Sistema Nacional de Investigadores,Int,1,[1-6],Sistema Nacional de Investigadores
+S5P10_3,Becas de posgrado,Int,1,[1-6],Becas de posgrado
+S5P10_4,Apoyo al desarrollo tecnológico en las empresas,Int,1,[1-6],Apoyo al desarrollo tecnológico en las empresas
+S5P10_5,Programas de retención y repatriación de científicos y tecnólogos,Int,1,[1-6],Programas de retención y repatriación de científicos y tecnólogos
+S5P10_6,Difusión y divulgación de los avances científicos y tecnológicos que se realizan en México,Int,1,[1-6],Difusión y divulgación de los avances científicos y tecnológicos que se realizan en México
+S5P11_D1,"Primer dependencia federal que financia Ciencia, Tecnología e Innovación",Varchar,50,Texto,"Primer dependencia federal que financia Ciencia, Tecnología e Innovación"
+S5P11_D2,"Segunda dependencia federal que financia Ciencia, Tecnología e Innovación",Varchar,50,Texto,"Segunda dependencia federal que financia Ciencia, Tecnología e Innovación"
+S5P11_D3,"Tercera dependencia federal que financia Ciencia, Tecnología e Innovación",Varchar,50,Texto,"Tercera dependencia federal que financia Ciencia, Tecnología e Innovación"
+,,,,,"¿Quién hace los desarrollos más importantes en Ciencia, Tecnología e Innovación? ordenélas por importancia, donde 1 es la más importante y 6 la menos importante."
+S5P12_1,Universidades públicas,Int,1,[1-6],Universidades públicas
+S5P12_2,Universidades privadas,Int,1,[1-6],Universidades privadas
+S5P12_3,Empresas,Int,1,[1-6],Empresas
+S5P12_4,Centros de investigación,Int,1,[1-6],Centros de investigación
+,,,,,
+S5P12_5,Gobierno,Int,1,[1-6],Gobierno
+S5P12_6,"Otros (ONG´s, Asociaciones de la Sociedad Civil, Privado no lucrativo)",Int,1,[1-6],"Otros (ONG´s, Asociaciones de la Sociedad Civil, Privado no lucrativo)"
+S5P12_ESP,Especifique,Varchar,50,Texto,Especifique
+,,,,,¿Cuáles de las siguientes instituciones conoce?
+S5P13_1,"Centro de Investigaciones en Óptica, A.C.",Int,1,[1-2],"Centro de Investigaciones en Óptica, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_2,"Centro de Investigación en Alimentación y Desarrollo, A.C.",Int,1,[1-2],"Centro de Investigación en Alimentación y Desarrollo, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_3,"Centro de Investigaciones Biológicas del Noroeste, S. C.",Int,1,[1-2],"Centro de Investigaciones Biológicas del Noroeste, S. C."
+,,,,1,Sí
+,,,,2,No
+S5P13_4,"Centro de Investigación Científica y de Educación Superior de Ensenada, B.C.",Int,1,[1-2],"Centro de Investigación Científica y de Educación Superior de Ensenada, B.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_5,"Centro de Investigación Científica de Yucatán, A.C.",Int,1,[1-2],"Centro de Investigación Cientí-
+fica de Yucatán, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_6,"Centro de Investigación en Matemáticas, A.C.",Int,1,[1-2],"Centro de Investigación en Matemáticas, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_7,"Centro de Investigación en Materiales Avanzados, S.C.",Int,1,[1-2],"Centro de Investigación en Materiales Avanzados, S.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_8,"Instituto Nacional de Astrofísica, Óptica y Electrónica",Int,1,[1-2],"Instituto Nacional de Astrofísica, Óptica y Electrónica"
+,,,,1,Sí
+,,,,2,No
+S5P13_9,"Instituto de Ecología, A.C.",Int,1,[1-2],"Instituto de Ecología, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_10,Instituto Potosino de Investigación Científica,Int,1,[1-2],"Instituto Potosino de Investiga-
+ción Científica"
+,,,,1,Sí
+,,,,2,No
+S5P13_11,Centro de Innovación Aplicada en Tecnologías Competitivas,Int,1,[1-2],Centro de Innovación Aplicada en Tecnologías Competitivas
+,,,,1,Sí
+,,,,2,No
+S5P13_12,"Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, A.C.",Int,1,[1-2],"Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_13,"CIATEQ, A.C. Centro
+de Tecnología Avanzada",Int,1,[1-2],"CIATEQ, A.C. Centro de Tecnología Avanzada"
+,,,,1,Sí
+,,,,2,No
+S5P13_14,Centro de Ingeniería y Desarrollo Industrial,Int,1,[1-2],Centro de Ingeniería y Desarrollo Industrial
+,,,,1,Sí
+,,,,2,No
+S5P13_15,"Centro de Investigación y Desarrollo Tecnológico en Electroquímica, S.C.",Int,1,[1-2],"Centro de Investigación y Desarrollo Tecnológico en Electroquímica, S.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_16,Centro de Investigación en Química Aplicada,Int,1,[1-2],Centro de Investigación en Química Aplicada
+,,,,1,Sí
+,,,,2,No
+S5P13_17,"Corporación Mexicana de Investigación en Materiales, S.A. de C.V.",Int,1,[1-2],"Corporación Mexicana de Investigación en Materiales,
+S.A. de C.V."
+,,,,1,Sí
+,,,,2,No
+S5P13_18,Fondo para el Desarrollo de Recursos Humanos,Int,1,[1-2],Fondo para el Desarrollo de Recursos Humanos
+,,,,1,Sí
+,,,,2,No
+S5P13_19,Fondo de Información y Documentación para la Industria,Int,1,[1-2],Fondo de Información y Documentación para la Industria
+,,,,1,Sí
+,,,,2,No
+S5P13_20,"Centro de Investigación y Docencia Económicas, A.C.",Int,1,[1-2],"Centro de Investigación y Docencia Económicas, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_21,Centro de Investigaciones y Estudios Superiores en Antropología Social,Int,1,[1-2],Centro de Investigaciones y Estudios Superiores en Antropología Social
+,,,,1,Sí
+,,,,2,No
+S5P13_22,"Centro de Investigación en Geografía
+y Geomática “Ing. Jorge L. Tamayo”, A.C.",Int,1,[1-2],"Centro de Investigación en Geografía y Geomática ""Ing. Jorge L. Tamayo"", A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_23,"El Colegio de Mi-
+choacán, A.C.",Int,1,[1-2],"El Colegio de Michoacán, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_24,El Colegio de San Luis. A.C.,Int,1,[1-2],El Colegio de San Luis. A.C.
+,,,,1,Sí
+,,,,2,No
+S5P13_25,El Colegio de la Frontera Sur,Int,1,[1-2],El Colegio de la Frontera Sur
+,,,,1,Sí
+,,,,2,No
+S5P13_26,"El Colegio de la Frontera Norte, A.C.",Int,1,[1-2],"El Colegio de la Frontera Norte, A.C."
+,,,,1,Sí
+,,,,2,No
+S5P13_27,Instituto de Investigaciones “Dr. José María Luis Mora”,Int,1,[1-2],"Instituto de Investigaciones
+“Dr. José María Luis Mora”"
+,,,,1,Sí
+,,,,2,No
+OBS,Observaciones,Varchar,254,Texto,Observaciones
+FAC,Factor de expansión,Int,6,[1-999999],Factor de expansión

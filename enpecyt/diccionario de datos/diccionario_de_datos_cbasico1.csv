@@ -1,0 +1,884 @@
+﻿CAMPO,DESCRIPCION,TIPO_DATO,LONGITUD,RANGO_VALIDO,METADATOS
+CD_A,Ciudad autorrepresentada,Varchar,2,[01-43],Ciudad autorrepresentada
+,,,,1,México
+,,,,2,Guadalajara
+,,,,3,Monterrey
+,,,,4,Puebla
+,,,,5,León
+,,,,7,San Luis Potosí
+,,,,8,Mérida
+,,,,9,Chihuahua
+,,,,10,Tampico
+,,,,12,Veracruz
+,,,,13,Acapulco
+,,,,14,Aguascalientes
+,,,,15,Morelia
+,,,,16,Toluca
+,,,,17,Saltillo
+,,,,18,Villahermosa
+,,,,19,Tuxtla Gutiérrez
+,,,,21,Tijuana
+,,,,24,Culiacán
+,,,,25,Hermosillo
+,,,,26,Durango
+,,,,27,Tepic
+,,,,28,Campeche
+,,,,29,Cuernavaca
+,,,,31,Oaxaca
+,,,,32,Zacatecas
+,,,,33,Colima
+,,,,36,Querétaro
+,,,,39,Tlaxcala
+,,,,40,La Paz
+,,,,41,Cancún
+,,,,43,Pachuca
+PER,Periodo de levantamiento,Varchar,4,[0001-9999],Periodo de levantamiento
+ENT,Entidad,Varchar,2,[01-32],Entidad
+,,,,1,Aguascalientes
+,,,,2,Baja California
+,,,,3,Baja California Sur
+,,,,4,Campeche
+,,,,5,Coahuila de Zaragoza
+,,,,6,Colima
+,,,,7,Chiapas
+,,,,8,Chihuahua
+,,,,9,Distrito Federal
+,,,,10,Durango
+,,,,11,Guanajuato
+,,,,12,Guerrero
+,,,,13,Hidalgo
+,,,,14,Jalisco
+,,,,15,México
+,,,,16,Michoacán de Ocampo
+,,,,17,Morelos
+,,,,18,Nayarit
+,,,,19,Nuevo León
+,,,,20,Oaxaca
+,,,,21,Puebla
+,,,,22,Querétaro
+,,,,23,Quintana Roo
+,,,,24,San Luis Potosí
+,,,,25,Sinaloa
+,,,,26,Sonora
+,,,,27,Tabasco
+,,,,28,Tamaulipas
+,,,,29,Tlaxcala
+,,,,30,Veracruz de Ignacio de la Llave
+,,,,31,Yucatán
+,,,,32,Zacatecas
+CON,Control,Varchar,5,[00001-99999],Control
+V_SEL,Vivienda seleccionada,Varchar,1,[1-9],Vivienda seleccionada
+N_HOG,Número de hogar,Varchar,1,[1-9],Número de hogar
+N_REN,Número de renglón,Varchar,2,[01-30],Número de renglón
+S3P1,¿Hasta qué año aprobó usted en la escuela?,Int,2,[0-10],"¿Hasta qué año aprobó usted
+en la escuela?"
+,,,,0,Ninguno
+,,,,1,Preescolar
+,,,,2,Primaria
+,,,,3,Secundaria
+,,,,4,Preparatoria o bachillerato
+,,,,5,Normal
+,,,,6,Carrera técnica o comercial
+,,,,7,Licenciatura o ingeniería
+,,,,8,Especialidad
+,,,,9,Maestría
+,,,,10,Doctorado
+S3P1_2,¿Hasta qué grado aprobó usted en la escuela?,Int,1,[0-9],"¿Hasta qué grado aprobó
+usted en la escuela?"
+S3P2,"Clave de la carrera, especialidad, maestría o doctorado que estudia o estudió",Int,4,[1-9999],"Clave de la carrera, especialidad, maestría o doctorado que estudia o estudió"
+S3P2_ES,"¿Cuál es el nombre de la carrera, escpecialidad, maestría o doctorado que estudia o estudió?",Varchar,50,Texto,"¿Cuál es el nombre de la carrera, especialidad, maestría o doctorado que estudia o estudió?"
+S3P3,¿Qué estudios le pidieron a usted para poder ingresar al último nivel de estudio?,Int,1,[1-5],¿Qué estudios le pidieron a usted para poder ingresar al último nivel de estudio?
+,,,,1,Primaria
+,,,,2,Secundaria
+,,,,3,Preparatoria o bachillerato
+,,,,4,Licenciatura o ingeniería
+,,,,5,Maestría
+,,,,,"Como parte de sus estudios de licenciatura o normal,
+¿cursó usted materias de las siguientes disciplinas?"
+S3P4_1,Físico-Matemáticas o Ciencias de la Tierra,Int,1,[1-2],Físico-Matemáticas o Ciencias de la Tierra
+,,,,1,Sí
+,,,,2,No
+S3P4_2,Biología o Química,Int,1,[1-2],Biología o Química
+,,,,1,Sí
+,,,,2,No
+S3P4_3,Medicina o Ciencias de la Salud,Int,1,[1-2],Medicina o Ciencias de la Salud
+,,,,1,Sí
+,,,,2,No
+S3P4_4,Humanidades o Ciencias de la Conducta?,Int,1,[1-2],Humanidades o Ciencias de la Conducta?
+,,,,1,Sí
+,,,,2,No
+S3P4_5,Ciencias Sociales,Int,1,[1-2],Ciencias Sociales
+,,,,1,Sí
+,,,,2,No
+S3P4_6,Biotecnología o Ciencias Agropecuarias,Int,1,[1-2],Biotecnología o Ciencias Agropecuarias
+,,,,1,Sí
+,,,,2,No
+S3P4_7,Ingenierías?,Int,1,[1-2],Ingenierías?
+,,,,1,Sí
+,,,,2,No
+S3P5,¿En qué tipo de escuela cursa o cursó el último nivel de estudio?,Int,1,[1-3],"¿En qué tipo de escuela
+cursa o cursó el último nivel de estudio?"
+,,,,1,Pública o de gobierno
+,,,,2,Privada o de paga
+,,,,3,De otro tipo
+S3P5_ES,"Especifique (de otro
+tipo)",Varchar,50,Texto,Especifique (de otro tipo)
+S3P6,"¿Qué edad tenía usted cuando aprobó el último grado
+de  (preparatoria o bachillerato, nomral, carrera técnica o comercial, licenciatura o ingeniería, especialidad, maestría o doctorado)?",Int,2,[0-75],"¿Qué edad tenía usted cuando aprobó el último grado de (preparatoria o bachillerato, normal, carrera técnica o comercial, licenciatura o ingeniería, especialidad, maestría o doctorado)?"
+S3P7,¿Actualmente estudia?,Int,1,[1-2],¿Actualmente estudia?
+,,,,1,Sí
+,,,,2,No
+,,,,,¿Le gustaría ser…
+S3P7_1_1,investigador?,Int,1,[1-2],investigador?
+,,,,1,Sí
+,,,,2,No
+S3P7_1_2,investigador académico?,Int,1,[1-2],investigador académico?
+,,,,1,Sí
+,,,,2,No
+S3P7_1_3,académico?,Int,1,[1-2],académico?
+,,,,1,Sí
+,,,,2,No
+S3P7_1_4,inventor?,Int,1,[1-2],inventor?
+,,,,1,Sí
+,,,,2,No
+S3P7_1_5,ingeniero?,Int,1,[1-2],ingeniero?
+,,,,1,Sí
+,,,,2,No
+,,,,,¿Si volviera a estudiar le gustaría ser…
+S3P7_2_1,investigador?,Int,1,[1-2],investigador?
+,,,,1,Sí
+,,,,2,No
+S3P7_2_2,investigador académico?,Int,1,[1-2],investigador académico?
+,,,,1,Sí
+,,,,2,No
+S3P7_2_3,académico?,Int,1,[1-2],académico?
+,,,,1,Sí
+,,,,2,No
+S3P7_2_4,inventor?,Int,1,[1-2],inventor?
+,,,,1,Sí
+,,,,2,No
+S3P7_2_5,ingeniero?,Int,1,[1-2],ingeniero?
+,,,,1,Sí
+,,,,2,No
+S3P8,¿La semana pasada usted. . .,Int,1,[1-8],¿La semana pasada usted. . .
+,,,,1,trabajó?
+,,,,2,"tenía trabajo, pero no trabajó?"
+,,,,3,buscó trabajo?
+,,,,4,¿es estudiante?
+,,,,5,¿se dedica a los quehaceres de su hogar?
+,,,,6,¿está jubilado(a) o pensionado(a)?
+,,,,7,¿tiene alguna limitación física o mental que le impide trabajar?
+,,,,8,¿no trabajó?
+S3P9,"Aunque ya me dijo que usted no trabajó,
+¿la semana pasada. . .",Int,1,[1-5],"Aunque ya me dijo que usted no trabajó, ¿la semana pasada. . ."
+,,,,1,"vendió o hizo algún producto
+para su venta?"
+,,,,2,"prestó algún servicio a cambio de un pago (cortar el cabello, dar clases, lavar ropa ajena)?"
+,,,,3,ayudó en las tierras o en el negocio de un familiar u otra persona?
+,,,,4,estaba esperando continuar con su trabajo o negocio?
+,,,,5,¿entonces no trabajó?
+S3P10,¿En su trabajo o negocio de la semana pasada usted fue. . .,Int,1,[1-7],¿En su trabajo o negocio de la semana pasada usted fue. . .
+,,,,1,empleado?
+,,,,2,obrero?
+,,,,3,jornalero o peón?
+,,,,4,trabajador por su cuenta (no contrata trabajadores)?
+,,,,5,patrón (contrata trabajadores)?
+,,,,6,trabajador sin pago en un negocio familiar?
+,,,,7,trabajador sin pago en un negocio no familiar?
+S3P11_ES,¿Cuáles son las tareas o funciones principales que desempeñó usted en este trabajo o en su negocio?,Varchar,100,Texto,¿Cuáles son las tareas o funciones principales que desempeñó usted en este trabajo o en su negocio?
+S3P12_C,Clave de la ocupación,Int,2,[1-99],Clave de la ocupación
+S3P12_ES,"¿Cuál es el nombre del oficio, puesto o cargo que desempeñó?",Varchar,50,Texto,"¿Cuál es el nombre del oficio,
+puesto o cargo que desempeñó?"
+S3P13_ES,"¿Cuál es el nombre de la (su) empresa, negocio o institución?",Varchar,50,Texto,"¿Cuál es el nombre de la (su) empresa, negocio o institución?"
+S3P14_C,Clave de actividad de la unidad económica,Int,2,[1-99],Clave de actividad de la unidad económica
+S3P14_ES,"¿A qué se dedica la empresa, negocio o institución para la que usted trabajó o ayudó?",Varchar,100,Texto,"¿A qué se dedica la empresa, negocio o institución para la que usted trabajó o ayudó?"
+S3P15,"¿La empresa, negocio o institución en donde usted trabaja realiza o coordina alguna investigación científica o tecnológica?",Int,1,[1-3],"¿La empresa, negocio o institución en donde usted trabaja realiza o coordina alguna investigación científica o tecnológica?"
+,,,,1,Sí
+,,,,2,No
+,,,,3,No sabe
+,,,,,"Por favor dígame si su interés por los temas que le mencionaré es muy grande, grande, moderado o nulo."
+S4P1_1,Deportes,Int,1,[1-4],Deportes
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_2,Política,Int,1,[1-4],Política
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_3,"Nuevos inventos, descubrimientos científicos y desarrollo tecnologíco",Int,1,[1-4],"Nuevos inventos, descubrimientos científicos y desarrollo tecnologíco"
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_4,Ciencias exactas,Int,1,[1-4],Ciencias exactas
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_5,"Ciencias sociales e
+historia",Int,1,[1-4],Ciencias sociales e historia
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_6,Sociales y espectáculos,Int,1,[1-4],Sociales y espectáculos
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_7,Contaminación ambiental,Int,1,[1-4],Contaminación ambiental
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+S4P1_8,"Negocios e informa-
+ción financiera",Int,1,[1-4],Negocios e información financiera
+,,,,1,Muy grande
+,,,,2,Grande
+,,,,3,Moderado
+,,,,4,Nulo
+,,,,,¿Por qué no está interesado en estos temas? (opción 3 pregunta 1)
+S4P1_1_1A,No tengo tiempo,Int,1,[1-2],No tengo tiempo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_2A,No los necesito,Int,1,[1-2],No los necesito
+,,,,1,Sí
+,,,,2,No
+S4P1_1_3A,No los conozco,Int,1,[1-2],No los conozco
+,,,,1,Sí
+,,,,2,No
+S4P1_1_4A,"Nunca he pensado
+acerca de ello",Int,1,[1-2],"Nunca he pensado acerca de
+ello"
+,,,,1,Sí
+,,,,2,No
+S4P1_1_5A,"No son de mi interés
+en particular",Int,1,[1-2],No son de mi interés en particular
+,,,,1,Sí
+,,,,2,No
+S4P1_1_6A,No hay una razón,Int,1,[1-2],No hay una razón
+,,,,1,Sí
+,,,,2,No
+S4P1_1_7A,No los entiendo,Int,1,[1-2],No los entiendo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_8A,No los entiendo,Int,1,[1-2],No los entiendo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_ESA,Otro (especifique),Varchar,50,Texto,Otro (especifique)
+,,,,,¿Por qué no está interesado en estos temas? (opción 4 pregunta 1)
+S4P1_1_1B,No tengo tiempo,Int,1,[1-2],No tengo tiempo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_2B,No los necesito,Int,1,[1-2],No los necesito
+,,,,1,Sí
+,,,,2,No
+S4P1_1_3B,No los conozco,Int,1,[1-2],No los conozco
+,,,,1,Sí
+,,,,2,No
+S4P1_1_4B,"Nunca he pensado
+acerca de ello",Int,1,[1-2],"Nunca he pensado acerca de
+ello"
+,,,,1,Sí
+,,,,2,No
+S4P1_1_5B,"No son de mi interés
+en particular",Int,1,[1-2],No son de mi interés en particular
+,,,,1,Sí
+,,,,2,No
+S4P1_1_6B,No hay una razón,Int,1,[1-2],No hay una razón
+,,,,1,Sí
+,,,,2,No
+S4P1_1_7B,No los entiendo,Int,1,[1-2],No los entiendo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_8B,No los entiendo,Int,1,[1-2],No los entiendo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_ESB,Otro (especifique),Varchar,50,Texto,Otro (especifique)
+,,,,,¿Por qué no está interesado en estos temas? (opción 5 pregunta 1)
+S4P1_1_1C,No tengo tiempo,Int,1,[1-2],No tengo tiempo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_2C,No los necesito,Int,1,[1-2],No los necesito
+,,,,1,Sí
+,,,,2,No
+S4P1_1_3C,No los conozco,Int,1,[1-2],No los conozco
+,,,,1,Sí
+,,,,2,No
+S4P1_1_4C,"Nunca he pensado
+acerca de ello",Int,1,[1-2],"Nunca he pensado acerca de
+ello"
+,,,,1,Sí
+,,,,2,No
+S4P1_1_5C,"No son de mi interés
+en particula",Int,1,[1-2],No son de mi interés en particular
+,,,,1,Sí
+,,,,2,No
+S4P1_1_6C,No hay una razón,Int,1,[1-2],No hay una razón
+,,,,1,Sí
+,,,,2,No
+S4P1_1_7C,No los entiendo,Int,1,[1-2],No los entiendo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_8C,No los entiendo,Int,1,[1-2],No los entiendo
+,,,,1,Sí
+,,,,2,No
+S4P1_1_ESC,Otro (especifique),Varchar,50,Texto,Otro (especifíque
+,,,,,"¿En qué temas (de nuevos inventos, descubrimientos científicos y desarrollo tecnológico o ciencias exactas o ciencia sociales e historia) está usted interesado…"
+S4P1_2_1,Físico-Matemáticas o Ciencias de la Tierra?,Int,1,[1-2],Físico-Matemáticas o Ciencias de la Tierra?
+,,,,1,Sí
+,,,,2,No
+S4P1_2_2,Biología o Química?,Int,1,[1-2],Biología o Química?
+,,,,1,Sí
+,,,,2,No
+S4P1_2_3,Medicina o Ciencias de la Salud?,Int,1,[1-2],Medicina o Ciencias de la Salud?
+,,,,1,Sí
+,,,,2,No
+S4P1_2_4,Humanidades o Ciencias de la Conducta?,Int,1,[1-2],Humanidades o Ciencias de la Conducta?
+,,,,1,Sí
+,,,,2,No
+S4P1_2_5,Ciencias Sociales?,Int,1,[1-2],Ciencias Sociales?
+,,,,1,Sí
+,,,,2,No
+S4P1_2_6,Biotecnología o Ciencias Agropecuarias?,Int,1,[1-2],Biotecnología o Ciencias Agropecuarias?
+,,,,1,Sí
+,,,,2,No
+S4P1_2_7,Ingenierías?,Int,1,[1-2],Ingenierías?
+,,,,1,Sí
+,,,,2,No
+,,,,,"¿Considera que su nivel de información en torno a los mismos temas es muy buena, buena, moderada o nula?"
+S4P2_1,Deportes,Int,1,[1-4],Deportes
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_2,Política,Int,1,[1-4],Política
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_3,"Nuevos inventos, descubrimientos científicos y desarrollo tecnológico",Int,1,[1-4],"Nuevos inventos, descubrimientos científicos y desarrollo tecnológico"
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_4,Ciencias exactas,Int,1,[1-4],Ciencias exactas
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_5,"Ciencias sociales e
+historia",Int,1,[1-4],Ciencias sociales e historia
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_6,Sociales y espectáculos,Int,1,[1-4],Sociales y espectáculos
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_7,Contaminación ambiental,Int,1,[1-4],Contaminación ambiental
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+S4P2_8,"Negocios e informa-
+ción financiera",Int,1,[1-4],Negocios e información financiera
+,,,,1,Muy buena
+,,,,2,Buena
+,,,,3,Moderada
+,,,,4,Nula
+,,,,,"De los siguientes medios que proporcionan información sobre desarrollos científicos, dígame en qué orden los pondría, donde el 1 es el más importante y el 6 el menos importante (segú tarjeta)."
+S4P3_1,Radio,Int,1,[1-6],Radio
+S4P3_2,Periódicos y revistas,Int,1,[1-6],Periódicos y revistas
+S4P3_3,Revistas científicas,Int,1,[1-6],Revistas científicas
+S4P3_4,Internet,Int,1,[1-6],Internet
+S4P3_5,Televisión,Int,1,[1-6],Televisión
+S4P3_6,Escuela/universidad,Int,1,[1-6],Escuela / universidad
+S4P3_7,Todos son importantes,Int,1,1,Todas son importantes
+S4P3_8,Ninguna es importante,Int,1,1,Ninguna es importante
+S4P3_9,No sabe,Int,1,1,No sabe
+S4P4,"¿Cuántas horas a la
+semana ve televisión?",Int,3,"[1-168] ,999","¿Cuántas horas a la semana
+ve televisión?"
+S4P4_1,"¿De éstas, cuántas horas ve noticias en T.V.?",Int,3,"[1-168] ,999","¿De éstas, cuántas horas ve
+noticias en T.V.?"
+S4P4_2,¿Cuántas horas ve programas de ciencia y tecnología en T.V.?,Int,3,"[1-168] ,999",¿Cuántas horas ve programas de ciencia y tecnología en T.V.?
+S4P4_3,¿Cuántas horas ve programas de entretenimiento en T.V.?,Int,3,"[1-168] ,999","¿Cuántas horas ve programas
+de entretenimiento en T.V.?"
+S4P4_4,¿Cuántas horas ve programas de entretenimiento en T.V.?,Int,3,"[1-168] ,999","¿Cuántas horas ve programas
+de entretenimiento en T.V.?"
+S4P5,¿Cuántas horas a la semana escucha radio?,Int,3,"[1-168] ,999",¿Cuántas horas a la semana escucha radio?
+S4P5_1,"¿De éstas, cuántas horas escucha noticias en radio?",Int,3,"[1-168] ,999","¿De éstas, cuántas horas escucha noticias en radio?"
+S4P5_2,¿Cuántas horas escucha programas de ciencia y tecnología en radio?,Int,3,"[1-168] ,999",¿Cuántas horas escucha programas de ciencia y tecnología en radio?
+S4P5_3,¿Cuántas horas escucha programas de entretenimiento en radio?,Int,3,"[1-168] ,999",¿Cuántas horas escucha programas de entretenimiento en radio?
+S4P5_4,¿Cuántas horas escucha programas de entretenimiento en radio?,Int,3,"[1-168] ,999",¿Cuántas horas escucha programas de entretenimiento en radio?
+S4P6,¿Cuántos días a la semana lee periódicos?,Int,1,"[1-7], 9",¿Cuántos días a la semana lee periódicos?
+S4P6_1,¿Cuántos artículos a la semana lee en periódicos?,Int,2,[1-99],¿Cuántos artículos a la semana lee en periódicos?
+S4P6_2,¿Cuántos artículos semanales de ciencia y tecnología lee en el periódico?,Int,2,[1-99],¿Cuántos artículos semanales de ciencia y tecnología lee en el periódico?
+S4P6_3,"¿Cuántos artículos de noticias actuales lee en periódicos semanalmente? (economía, política, internacionales, entre otros)",Int,2,[1-99],"¿Cuántos artículos de noticias actuales lee en periódicos semanalmente? (economía, política, internacionales, entre otros)"
+S4P6_4,¿Cuántos artículos de entretenimiento lee en periódicos semanalmente?,Int,2,[1-99],¿Cuántos artículos de entretenimiento lee en periódicos semanalmente?
+S4P6_5,¿Y cuántos artículos de artes lee en periódicos semanalmente?,Int,2,[1-99],¿Y cuántos artículos de artes lee en periódicos semanalmente?
+S4P7,¿Cuántos días a la semana lee revistas?,Int,1,[1-7],¿Cuántos días a la semana lee revistas?
+S4P7_1,¿Cuántos artículos a la semana lee en revistas?,Int,2,[1-99],¿Cuántos artículos a la semana lee en revistas?
+S4P7_2,¿Cuántos artículos de ciencia y tecnología lee semanalmente en revistas?,Int,2,[1-99],¿Cuántos artículos de ciencia y tecnología lee semanalmente en revistas?
+S4P7_3,"Cuántos artículos de noticias actuales lee en revistas semanalmente? (economía, política, internacionales, entre otros)",Int,2,[1-99],"¿Cuántos artículos de noticias actuales lee en revistas semanalmente? (economía, política, internacionales, entre otros)"
+S4P7_4,¿Cuántos artículos de entretenimiento lee en revistas semanalmente?,Int,2,[1-99],¿Cuántos artículos de entretenimiento lee en revistas semanalmente?
+S4P7_5,¿Y cuántos artículos de artes lee en revistas semanalmente?,Int,2,[1-99],¿Y cuántos artículos de artes lee en revistas semanalmente?
+S4P8,"¿Tiene usted acceso, o cuenta con alguna computadora?",Int,1,[1-2],"¿Tiene usted acceso, o cuenta con alguna computadora?"
+,,,,1,Sí
+,,,,2,No
+S4P8_1_1,Mencione los dos principales lugares en los que usted tiene acceso a una computadora (lugar uno),Int,2,[1-10],Mencione los dos principales lugares en los que usted tiene acceso a una computadora (lugar uno)
+,,,,1,Hogar
+,,,,2,Trabajo
+,,,,3,Escuela o institución donde estudia
+,,,,4,Café internet
+,,,,5,Centro de acceso público con costo
+,,,,6,Centro de acceso público sin costo
+,,,,7,Centro de acceso restringido con costo
+,,,,8,Centro de acceso restringido sin costo
+,,,,9,En la casa de otra persona
+,,,,10,Otro
+S4P8_1_2,Mencione los dos principales lugares en los que usted tiene acceso a una computadora (lugar dos),Int,2,[0-10],Mencione los dos principales lugares en los que usted tiene acceso a una computadora (lugar dos)
+,,,,0,Sin respuesta
+,,,,1,Hogar
+,,,,2,Trabajo
+,,,,3,Escuela o institución donde estudia
+,,,,4,Café internet
+,,,,5,Centro de acceso público con costo
+,,,,6,Centro de acceso público sin costo
+,,,,7,Centro de acceso restringido con costo
+,,,,8,Centro de acceso restringido sin costo
+,,,,9,En la casa de otra persona
+,,,,10,Otro
+S4P8_1_ES,Especifique (otro),Varchar,50,Texto,Especifique (otro)
+S4P9,¿Sabe usted lo que es Internet?,Int,1,[1-2],¿Sabe usted lo que es Internet?
+,,,,1,Sí
+,,,,2,No
+S4P10,¿Accesa usted a Internet?,Int,1,[1-2],¿Accesa usted a Internet?
+,,,,1,Sí
+,,,,2,No
+S4P10_1,,Int,2,[1-99],"¿Cuántas horas a la semana
+accesa a Internet?"
+,,,,,¿Consulta usted en Internet información acerca de. . .
+S4P11_1,humanidades (artes)?,Int,1,[1-2],humanidades (artes)?
+,,,,1,Sí
+,,,,2,No
+S4P11_2,"sociedad y cultura (turismo, medio ambiente, otros países)?",Int,1,[1-2],"sociedad y cultura (turismo, medio ambiente, otros países)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_3,"ciencias sociales e
+historia?",Int,1,[1-2],ciencias sociales e historia?
+,,,,1,Sí
+,,,,2,No
+S4P11_4,"instituciones de gobierno (CONACYT, IMSS, INEGI)?",Int,1,[1-2],"instituciones de gobierno (CONACYT, IMSS, INEGI)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_5,"ciencia naturales (biología, química)?",Int,1,[1-2],"ciencia naturales (biología, química)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_6,deportes?,Int,1,[1-2],deportes?
+,,,,1,Sí
+,,,,2,No
+S4P11_7,"economía y finanzas (operaciones bancarias, bolsa de valores)?",Int,1,[1-2],"economía y finanzas (operaciones bancarias, bolsa de valores)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_8,"entretenimiento (cine,
+música, humor)?",Int,1,[1-2],"entretenimiento (cine, música,
+humor)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_9,"ingeniería y tecnología (electrónica, industria, telecomunicaciones, astronomía)?",Int,1,[1-2],"ingeniería y tecnología (electrónica, industria, telecomunicaciones, astronomía)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_10,"noticias de actualidad (periódicos, revistas)?",Int,1,[1-2],"noticias de actualidad (periódicos, revistas)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_11,"educación (universidades, cursos)?",Int,1,[1-2],"educación (universidades, cursos)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_12,"compras en línea (subastas, e-shopping, bazares)?",Int,1,[1-2],"compras en línea (subastas,
+e-shopping, bazares)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_13,"correo electrónico (hotmail, yahoo, gmail)?",Int,1,[1-2],"correo electrónico (hotmail, yahoo, gmail)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_14,"ciencias médicas (nuevos tratamientos, medicinas)?",Int,1,[1-2],"ciencias médicas (nuevos
+tratamientos, medicinas)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_15,"redes sociales (facebook, twitter, etc.)?",Int,1,[1-2],"redes sociales (facebook, twitter, etc.)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_16,"ciencias agrícolas (cultivos, ganado, fertilizantes)?",Int,1,[1-2],"ciencias agrícolas (cultivos, ganado, fertilizantes)?"
+,,,,1,Sí
+,,,,2,No
+S4P11_17,,Int,1,[1-2],otros?
+,,,,1,Sí
+,,,,2,No
+S4P11_ES,Especifique (otros),Varchar,50,Texto,Especifique (otros)
+,Leeré una lista de lugares para que usted me diga si los visitó durante el último año.,,,,Leeré una lista de lugares para que usted me diga si los visitó durante el último año.
+S4P12_1,,Int,1,[1-2],Zoológico o acuario
+,,,,1,Sí
+,,,,2,No
+S4P12_2,,Int,1,[1-2],Biblioteca pública
+,,,,1,Sí
+,,,,2,No
+S4P12_3,Museo de ciencia y tecnología,Int,1,[1-2],Museo de ciencia y tecnología
+,,,,1,Sí
+,,,,2,No
+S4P12_4,Planetario,Int,1,[1-2],Planetario
+,,,,1,Sí
+,,,,2,No
+S4P12_5,Exposiciones tecnológicas o industriales,Int,1,[1-2],Exposiciones tecnológicas o industriales
+,,,,1,Sí
+,,,,2,No
+S4P12_6,Semana nacional de ciencia y tecnología,Int,1,[1-2],Semana nacional de ciencia y tecnología
+,,,,1,Sí
+,,,,2,No
+S4P12_7,"Museo (de arte, de cera, natural)",Int,1,[1-2],"Museo (de arte, de cera, natural)"
+,,,,1,Sí
+,,,,2,No
+S4P12_8,"Parque de diversión (acuático, tipo sixflags, etc.)",Int,1,[1-2],"Parque de diversión (acuático,
+tipo sixflags, etc.)"
+,,,,1,Sí
+,,,,2,No
+S4P12_9,Teatro,Int,1,[1-2],Teatro
+,,,,1,Sí
+,,,,2,No
+S4P12_10,Cine,Int,1,[1-2],Cine
+,,,,1,Sí
+,,,,2,No
+,,,,,Dígame las razones por las que visitó (un museo de ciencia y tecnología o un planetario o exposiciones tecnológicas industriales o la semana nacional de ciencia y tecnología)
+S4P12_1_1,Para aprender algo,Int,1,[1-2],Para aprender algo
+,,,,1,Sí
+,,,,2,No
+S4P12_1_2,Recomendación de alguien,Int,1,[1-2],Recomendación de alguien
+,,,,1,Sí
+,,,,2,No
+S4P12_1_3,"Acompañé a algún
+familiar o amigo",Int,1,[1-2],"Acompañé a algún familiar o
+amigo"
+,,,,1,Sí
+,,,,2,No
+S4P12_1_4,Es divertido,Int,1,[1-2],Es divertido
+,,,,1,Sí
+,,,,2,No
+S4P12_1_5,Por cuasualidad,Int,1,[1-2],Por casualidad
+,,,,1,Sí
+,,,,2,No
+S4P12_1_6,Me gusta la ciencia y la tecnología,Int,1,[1-2],Me gusta la ciencia y la tecnología
+,,,,1,Sí
+,,,,2,No
+S4P12_1_7,"Por una exhibición o
+evento especial",Int,1,[1-2],"Por una exhibición o evento
+especial"
+,,,,1,Sí
+,,,,2,No
+S4P12_1_8,"No tenía nada que
+hacer ese día",Int,1,[1-2],"No tenía nada que hacer ese
+día"
+,,,,1,Sí
+,,,,2,No
+S4P12_1_9,Está cerca de mi casa,Int,1,[1-2],Está cerca de mi casa
+,,,,1,Sí
+,,,,2,No
+S4P12_1_10,Otra,Int,1,[1-2],Otra
+,,,,1,Sí
+,,,,2,No
+S4P12_1_ES,Especifique (otra),Varchar,50,Texto,Especifique (otra)
+,,,,,"Dígame las razones por las que no visitó un museo de ciencia y tecnología, un planetario, exposiciones
+tecnológicas industriales, la semana nacional de ciencia y tecnología"
+S4P12_2_1,Falta de tiempo,Int,1,[1-2],Falta de tiempo
+,,,,1,Sí
+,,,,2,No
+S4P12_2_2,"Está muy lejos (casa, trabajo, escuela)",Int,1,[1-2],"Está muy lejos (casa, trabajo, escuela)"
+,,,,1,Sí
+,,,,2,No
+S4P12_2_3,El precio de entrada es muy alto,Int,1,[1-2],El precio de entrada es muy alto
+,,,,1,Sí
+,,,,2,No
+S4P12_2_4,"No sé dónde hay
+este tipo de museos",Int,1,[1-2],"No sé dónde hay este tipo de
+museos"
+,,,,1,Sí
+,,,,2,No
+S4P12_2_5,No estoy interesado,Int,1,[1-2],No estoy interesado
+,,,,1,Sí
+,,,,2,No
+S4P12_2_6,Esos museos son muy complicados,Int,1,[1-2],Esos museos son muy complicados
+,,,,1,Sí
+,,,,2,No
+S4P12_2_7,No estaba en mis planes,Int,1,[1-2],No estaba en mis planes
+,,,,1,Sí
+,,,,2,No
+S4P12_2_8,Otra,Int,1,[1-2],Otra
+,,,,1,Sí
+,,,,2,No
+S4P12_2_ES,Especifique (otra),Varchar,50,Texto,Especifique (otra)
+,,,,,"Respecto a los principales medios de comunicación que voy a mencionarle: internet, televisión, radio y prensa, dígame…"
+S4P13_1,"según su percepción
+¿en cuál medio se difunde con mayor frecuencia información sobre Ciencia y Tecnología?",Int,1,[1-5],según su percepción ¿en cuál medio se difunde con mayor frecuencia información sobre Ciencia y Tecnología?
+,,,,1,Internet
+,,,,2,Televisión
+,,,,3,Radio
+,,,,4,Prensa
+,,,,5,No sabe
+S4P13_2,"según su percepción,
+¿en cuál medio el comunicador está más preparado para comunicar información sobre Ciencia y Tecnología?",Int,1,[1-5],"según su percepción, ¿en cuál medio el comunicador está más preparado para comunicar información sobre Ciencia y Tecnología?"
+,,,,1,Internet
+,,,,2,Televisión
+,,,,3,Radio
+,,,,4,Prensa
+,,,,5,No sabe
+S4P13_3,¿a través de cuál medio prefiere informarse en temas de Ciencia y Tecnología?,Int,1,[1-5],¿a través de cuál medio prefiere informarse en temas de Ciencia y Tecnología?
+,,,,1,Internet
+,,,,2,Televisión
+,,,,3,Radio
+,,,,4,Prensa
+,,,,5,No sabe
+,,,,,"En una escala del 1 al 10, donde 10 equivale a “Muy respetable”, ¿en México, cómo califica usted el desempeño de un. . ."
+S4P14_1,juez,Int,2,[1-11],juez
+,,,,11,No sabe
+S4P14_2,médico,Int,2,[1-11],médico
+,,,,11,No sabe
+S4P14_3,abogado,Int,2,[1-11],abogado
+,,,,11,No sabe
+S4P14_4,hombre de negocios,Int,2,[1-11],hombre de negocios
+,,,,11,No sabe
+S4P14_5,periodista,Int,2,[1-11],periodista
+,,,,11,No sabe
+S4P14_6,banquero,Int,2,[1-11],banquero
+,,,,11,No sabe
+S4P14_7,ingeniero,Int,2,[1-11],ingeniero
+,,,,11,No sabe
+S4P14_8,arquitecto,Int,2,[1-11],arquitecto
+,,,,11,No sabe
+S4P14_9,profesor,Int,2,[1-11],profesor
+,,,,11,No sabe
+S4P14_10,deportista,Int,2,[1-11],deportista
+,,,,11,No sabe
+S4P14_11,artista,Int,2,[1-11],artista
+,,,,11,No sabe
+S4P14_12,bombero,Int,2,[1-11],bombero
+,,,,11,No sabe
+S4P14_13,enfermera,Int,2,[1-11],enfermera
+,,,,11,No sabe
+S4P14_14,oficial de policía,Int,2,[1-11],oficial de policía
+,,,,11,No sabe
+S4P14_15,sacerdote o ministro de culto,Int,2,[1-11],sacerdote o ministro de culto
+,,,,11,No sabe
+S4P14_16,Investigador,Int,2,[1-11],Investigador
+,,,,11,No sabe
+S4P14_17,inventor,Int,2,[1-11],Inventor
+,,,,11,No sabe
+,,,,,"Para explicarle a usted los impactos o efectos de la ciencia y la tecnología, de la siguiente lista, diga en quién confía más por sus conocimientos; considere la escala: muy confiable, confiable, poco confiable y nada confiable."
+S4P15_1,Periodistas de revistas y periódicos,Int,1,[1-5],Periodistas de revistas y periódicos
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_2,Periodistas de televisión y radio,Int,1,[1-5],Periodistas de televisión y radio
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_3,Políticos,Int,1,[1-5],Políticos
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_4,Procuraduría Federal del Consumidor (revista del consumidor),Int,1,[1-5],Procuraduría Federal del Consumidor (revista del consumidor)
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_5,Científicos trabajando en universidades o centros de investigación públicos,Int,1,[1-5],Científicos trabajando en universidades o centros de investigación públicos
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_6,Científicos trabajando en centros de investigación privados,Int,1,[1-5],Científicos trabajando en centros de investigación privados
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_7,Asociaciones de protección ambiental,Int,1,[1-5],Asociaciones de protección ambiental
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_8,Empresarios,Int,1,[1-5],Empresarios
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_9,Militares,Int,1,[1-5],Militares
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_10,Líderes o representantes religiosos,,1,[1-5],Líderes o representantes religiosos
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_11,Gobierno,Int,1,[1-5],Gobierno
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_12,Médicos,Int,1,[1-5],Médicos
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_13,Escritores o intelectuales,,1,[1-5],Escritores o intelectuales
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+S4P15_14,Consejo Nacional de Ciencia y Tecnología,Int,1,[1-5],Consejo Nacional de Ciencia y Tecnología
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+SP4A5_15000,"Profesores (primaria, secundaria, etc.)",Int,1,[1-5],"Profesores (primaria, secundaria, etc.)"
+,,,,1,Muy confiable
+,,,,2,Confiable
+,,,,3,Poco confiable
+,,,,4,Nada confiable
+,,,,5,No sabe
+,,,,,"De las siguientes disciplinas, dígame si considera a cada una de ellas como muy científica, científica, algo científica o nada científica; si no conoce alguna de ellas, indíquemelo así."
+S4P16_1,¿Físico-Matemáticas o Ciencias de la Tierra?,Int,1,[1-5],¿Físico-Matemáticas o Ciencias de la Tierra?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+S4P16_2,¿Biología o Química?,Int,1,[1-5],¿Biología o Química?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+S4P16_3,¿Medicina o Ciencias de la Salud?,Int,1,[1-5],¿Medicina o Ciencias de la Salud?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+S4P16_4,¿Humanidades o Ciencias de la Conducta?,Int,1,[1-5],¿Humanidades o Ciencias de la Conducta?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+S4P16_5,¿Ciencias Sociales?,Int,1,[1-5],¿Ciencias Sociales?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+S4P16_6,¿Biotecnología o Ciencias Agropecuarias?,Int,1,[1-5],¿Biotecnología o Ciencias Agropecuarias?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+S4P16_7,¿Ingenierías?,Int,1,[1-5],¿Ingenierías?
+,,,,1,Muy científica
+,,,,2,Científica
+,,,,3,Algo científica
+,,,,4,Nada científica
+,,,,5,No sabe
+,,,,,"De los siguientes conceptos, dígame si su entendimiento es bueno, regular o malo."
+S4P17_1,Estudio científico,Int,1,[1-4],Estudio científico
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_2,Software o paquetería computacional,Int,1,[1-4],Software o paquetería computacional
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_3,Contaminación ambiental,Int,1,[1-4],Contaminación ambiental
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_4,Efecto invernadero,Int,1,[1-4],Efecto invernadero
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_5,Calentamiento global de la tierra,Int,1,[1-4],Calentamiento global de la tierra
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_6,Agujero en la capa de ozono,Int,1,[1-4],Agujero en la capa de ozono
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_7,Alimentos modificados genéticamente,Int,1,[1-4],Alimentos modificados genéticamente
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_8,Medicina transgénica,Int,1,[1-4],Medicina transgénica
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_9,Nanotecnologías,Int,1,[1-4],Nanotecnologías
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_10,Motores de energía por celdas,Int,1,[1-4],Motores de energía por celdas
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_11,Los números naturales y sus propiedades,Int,1,[1-4],Los números naturales y sus propiedades
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_12,"Enfermedades crónico-degenerativas, como la obesidad, enfermedades cardiovasculares (los infartos al corazón), cáncer, enfermedades respiratorias crónicas (enfermedad pulmonar obstructiva crónica y el asma) y la diabetes mellitus",Int,1,[1-4],"Enfermedades crónico-degenerativas, como la obesidad, enfermedades cardiovasculares (los infartos al corazón), cáncer, enfermedades respiratorias crónicas (enfermedad pulmonar obstructiva crónica y el asma) y la diabetes mellitus"
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_13,Innovación,Int,1,[1-4],Innovación
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+S4P17_14,Invención,Int,1,[1-4],Invención
+,,,,1,Bueno
+,,,,2,Regular
+,,,,3,Malo
+,,,,4,No sabe
+FAC,,Int,6,[1-999999],Factor de expansión

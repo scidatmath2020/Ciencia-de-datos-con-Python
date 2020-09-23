@@ -1,0 +1,122 @@
+﻿CAMPO,DESCRIPCION,TIPO_DATO,LONGITUD,RANGO_VALIDO,METADATOS
+CD_A,Ciudad autorrepresentada,Varchar,2,[01-43],Ciudad autorrepresentada
+,,,,01,México
+,,,,02,Guadalajara
+,,,,03,Monterrey
+,,,,04,Puebla
+,,,,05,León
+,,,,07,San Luis Potosí
+,,,,08,Mérida
+,,,,09,Chihuahua
+,,,,10,Tampico
+,,,,12,Veracruz
+,,,,13,Acapulco
+,,,,14,Aguascalientes
+,,,,15,Morelia
+,,,,16,Toluca
+,,,,17,Saltillo
+,,,,18,Villahermosa
+,,,,19,Tuxtla Gutiérrez
+,,,,21,Tijuana
+,,,,24,Culiacán
+,,,,25,Hermosillo
+,,,,26,Durango
+,,,,27,Tepic
+,,,,28,Campeche
+,,,,29,Cuernavaca
+,,,,31,Oaxaca
+,,,,32,Zacatecas
+,,,,33,Colima
+,,,,36,Querétaro
+,,,,39,Tlaxcala
+,,,,40,La Paz
+,,,,41,Cancún
+,,,,43,Pachuca
+PER,Periodo de levantamiento,Varchar,4,[0001-9999],Periodo de levantamiento
+ENT,Entidad,Varchar,2,[01-32],Entidad
+,,,,01,Aguascalientes
+,,,,02,Baja California
+,,,,03,Baja California Sur
+,,,,04,Campeche
+,,,,05,Coahuila de Zaragoza
+,,,,06,Colima
+,,,,07,Chiapas
+,,,,08,Chihuahua
+,,,,09,Distrito Federal
+,,,,10,Durango
+,,,,11,Guanajuato
+,,,,12,Guerrero
+,,,,13,Hidalgo
+,,,,14,Jalisco
+,,,,15,México
+,,,,16,Michoacán de Ocampo
+,,,,17,Morelos
+,,,,18,Nayarit
+,,,,19,Nuevo León
+,,,,20,Oaxaca
+,,,,21,Puebla
+,,,,22,Querétaro
+,,,,23,Quintana Roo
+,,,,24,San Luis Potosí
+,,,,25,Sinaloa
+,,,,26,Sonora
+,,,,27,Tabasco
+,,,,28,Tamaulipas
+,,,,29,Tlaxcala
+,,,,30,Veracruz de Ignacio de la Llave
+,,,,31,Yucatán
+,,,,32,Zacatecas
+CON,,Varchar,5,[00001-99999],Control
+V_SEL,Vivienda seleccionada,Varchar,1,[1-9],Vivienda seleccionada
+N_HOG,Número de hogar,Varchar,1,[1-9],Número de hogar
+N_REN,Número de renglón,Varchar,2,[01-30],Número de renglón
+EST_DIS,Estrato de diseño,Varchar,1,[001-099],Estrato de diseño
+UPM_DIS,UPM de diseño,Varchar,5,[00001-99999],UPM de diseño
+PAR,Parentesco,Int,1,[1-7],Parentesco
+,,,,1,Jefe(a)
+,,,,2,Esposo(a) o compañero(a)
+,,,,3,Hijo(a)
+,,,,4,Otro pariente
+,,,,5,Trabajador doméstico
+,,,,6,Huésped
+,,,,7,No tiene parentesco
+SEX,Sexo,Int,1,[1-2],Sexo
+,,,,1,Hombre
+,,,,2,Mujer
+EDA,Edad,Int,3,[0-120],Edad
+,,,,0,Menor de un año
+NAC_DIA,Día de nacimiento,Int,2,[1-31],Día de nacimiento
+NAC_MES,Mes de nacimiento,Int,2,[1-12],Mes de nacimiento
+NAC_ANIO,Año de nacimiento,Int,4,[1900-2015],Año de nacimiento
+NIV,Nivel de instrucción,Int,2,[0-10],Nivel de instrucción
+,,,,0,Ninguno
+,,,,1,Preescolar
+,,,,2,Primaria
+,,,,3,Secundaria
+,,,,4,Preparatoria o bachillerato
+,,,,5,Normal
+,,,,6,Carrera técnica o comercial
+,,,,7,Licenciatura o ingeniería
+,,,,8,Especialidad
+,,,,9,Maestría
+,,,,10,Doctorado
+GRA,Grado,Int,1,[0-9],Grado
+A_ESC,Antecedente escolar,Int,1,[1-5],Antecedente escolar
+,,,,1,Primaria
+,,,,2,Secundaria
+,,,,3,Preparatoria o bachillerato
+,,,,4,Licenciatura o ingeniería
+,,,,5,Maestría
+ELEGIDO,Renglón del elegido,Int,1,1,Renglón del elegido
+REELE,Se reeligió al seleccionado,Int,1,[1-4],Se reeligió al seleccionado
+R_DEF,Resultado definitivo,Varchar,2,[01-08],Resultado definitivo
+,,,,01,Entrevista completa
+,,,,02,Entrevista incompleta
+,,,,03,No hay persona elegible
+,,,,04,Informante inadecuado
+,,,,05,Ausencia de ocupantes
+,,,,06,Negativa
+,,,,07,Vivienda deshabitada o de uso temporal
+,,,,08,Otra situación
+FACTOR,Factor de expansión,Int,6,[1-999999],Factor de expansión
+FAC18,Factor de expansión para personas de 18 años y más,Int,6,[1-999999],Factor de expansión para personas de 18 años y más
