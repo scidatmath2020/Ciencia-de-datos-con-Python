@@ -1,0 +1,32 @@
+En la sesión 12, casi hasta el final, de los ciudadanos mexicanos mayores de edad, 
+que viven en vivienda particular y en ciudad con mas de 100,000 habitantes, calculamos el p
+porcentaje de quiénes conocen o han escuchado hablar de algún centro de investigación
+de CONACYT.
+
+El código fue este:
+
+100 * cuestio[(cuestio["S5P13_1"] == 1) | (cuestio["S5P13_10"] == 1) | (cuestio["S5P13_19"] == 1) | 
+(cuestio["S5P13_2"] == 1) | (cuestio["S5P13_11"] == 1) | (cuestio["S5P13_20"] == 1) | 
+(cuestio["S5P13_3"] == 1) | (cuestio["S5P13_12"] == 1) | (cuestio["S5P13_21"] == 1) | 
+(cuestio["S5P13_4"] == 1) | (cuestio["S5P13_13"] == 1) | (cuestio["S5P13_22"] == 1) | 
+(cuestio["S5P13_5"] == 1) | (cuestio["S5P13_14"] == 1) | (cuestio["S5P13_23"] == 1) |  
+(cuestio["S5P13_6"] == 1) | (cuestio["S5P13_15"] == 1) | (cuestio["S5P13_24"] == 1) | 
+(cuestio["S5P13_7"] == 1) | (cuestio["S5P13_16"] == 1) | (cuestio["S5P13_25"] == 1) | 
+(cuestio["S5P13_8"] == 1) | (cuestio["S5P13_17"] == 1) | (cuestio["S5P13_26"] == 1) | 
+(cuestio["S5P13_9"] == 1) | (cuestio["S5P13_18"] == 1) | (cuestio["S5P13_27"] == 1)]["FAC"].sum() / cuestio["FAC"].sum()
+
+
+El siguiente código hace exactamente lo mismo. Explica cada una de las líneas y obtén una conclusión sobre
+porqué funciona.
+
+df = pd.DataFrame({
+    "C1":(27 * "(cuestio['S5P13_,").split(",")[:-1],
+    "C2":list(range(1,28)),
+    "C3":(27 * "']==1) | ,").split(",")[:-1]
+    })
+
+df["filtro"] = df["C1"] + df["C2"].astype(str) + df["C3"]
+
+filtro = "".join(list(df["filtro"]))
+
+100 * cuestio[eval(filtro[:-3])]["FAC"].sum() / cuestio["FAC"].sum()
