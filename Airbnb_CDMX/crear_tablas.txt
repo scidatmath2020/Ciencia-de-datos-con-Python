@@ -1,0 +1,31 @@
+create table airbnb_cdmx(
+	id varchar,
+	host_id varchar,                
+	neighbourhood int,
+	property_type int,
+	room_type int,
+	accommodates int,
+	price float,
+	minimum_nights int,
+	maximum_nights int,
+	bedrooms int,
+	beds int,
+	cancellation_policy varchar,
+	number_of_reviews int,
+	review_scores_accuracy int
+) 
+
+create table alcaldias(
+	neighbourhood int,
+	description varchar
+)
+
+create table tipo_habitacion(
+	tipo_habitacion int,
+	descripcion varchar
+)
+
+create table tipo_propiedad(
+	tipo_de_propiedad int,
+	descripcion varchar
+)
